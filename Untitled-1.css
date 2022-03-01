@@ -27,24 +27,30 @@ ul {
   }
 
   li a:hover {
-  background-color: rgb(34, 114, 168);
+  background-color: #f0f2f5;
   }
   
   body {
-      margin: 0;
-      padding: 0;
+      margin: auto;
+      padding: auto;
       background-color: #f0f2f5;
       font-family: sans-serif;
+
+      
   }
   
   .loginbox {
-      width: 350px;
-      height: 420px;
+    
+    
       background: rgb(255, 255, 255);
       color: rgb(59, 32, 211);
-      border-radius: 6%;
+      border-radius: 2%;
       box-sizing: border-box;
       padding: 70px 30px
+      
+      
+      
+      
       
       
   }
@@ -53,6 +59,7 @@ ul {
       width: 160px;
       height: 160px;
       border-radius: 6%;
+      
  
   }
   
@@ -119,20 +126,27 @@ ul {
 div.row
 {
     position: center;
-    margin:   0px;
-    padding: 100px;
+    margin:   20%;
 
 }
 
 
 .navbar {
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: auto;
     background-color: rgb(255, 255, 255);
     color: white;
-    text-align: center;
+    direction: ltr;
+    line-height: 1.34;
+    display: block;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    float: Bottom;
+
+    
   }
 
 .small
@@ -144,12 +158,66 @@ div.row
 
 .slog
 {
-    width: 220px;
-    height: 300px;
+    width: 165px;
+    height: 250px;
     background: rgb(255, 255, 255);
     color: rgb(59, 32, 211);
-    border-radius: 6%;
+    border-radius: 2%;
     box-sizing: border-box;
     padding: 70px 30px
+
+}
+#q123
+{
+    width: 200px;
+    height: 40px;
+    
+
+
+}
+.notification {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+.notification:hover {
+    background: rgb(255, 255, 255);
+  }
+  
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+
+  
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+h3{
+      color:rgb(0, 0, 0);
+      justify-content: center;
+      align-items: center;
+      position: static;
+  }
+#container
+{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6%;
+
+    
 
 }
